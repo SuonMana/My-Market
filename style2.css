@@ -1,0 +1,60 @@
+body{
+	background-color: #7CD1B8;
+    text-align: center;
+}
+.banner2 {
+    height: 400px;
+    background-image: url('images/images (1).jpeg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner2 h1 {
+    text-align: right;
+    letter-spacing:5px;
+    text-transform:capitalize;
+    color: #7CD1B8;
+}
+.banner2 h2{
+    text-align: right;
+    text-transform: capitalize;
+    color: white;
+}
+.nav{
+    
+    width: 100%;
+    text-align: center;
+}
+.nav ul{
+    list-style-type: none;
+
+}
+.nav li{
+    display:inline-block;
+}
+.nav ul li a {
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: darkblue;
+    color:white;
+    letter-spacing:2px;
+    border:2px solid blue;
+    border-radius:15px;
+
+}
+.nav ul li a:hover{
+    background-color: aquamarine
+}
+
+.cart2 {
+    width: 270px;
+    height:420px;
+    border:2px solid white;
+    display: inline-block;
+    margin: 10px;
+}
+.cart2 img{
+    width:200px;
+}

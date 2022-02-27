@@ -1,0 +1,59 @@
+body{
+	background-color: #7CD1B8;
+    text-align: center;
+}
+.banner1 {
+    height: 400px;
+    background-image: url('images/blueberrypie.jpeg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner1 h1 {
+    text-align: right;
+    letter-spacing:5px;
+    text-transform:capitalize;
+}
+.banner1 h2{
+    text-align: right;
+    text-transform: capitalize;
+    color: white;
+}
+.nav1{
+    
+    width: 100%;
+    text-align: center;
+}
+.nav1 ul{
+    list-style-type: none;
+
+}
+.nav1 li{
+    display:inline-block;
+}
+.nav1 ul li a {
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: darkblue;
+    color:white;
+    letter-spacing:2px;
+    border:2px solid blue;
+    border-radius:15px;
+
+}
+.nav1 ul li a:hover{
+    background-color: aquamarine
+}
+
+.cart1 {
+    width: 270px;
+    height:420px;
+    border:2px solid white;
+    display:inline-block;
+    margin: 10px;
+}
+.cart1 img{
+    width:200px;
+}
